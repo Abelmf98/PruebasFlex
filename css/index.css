@@ -1,0 +1,78 @@
+/* Abel Mansilla Felipe */
+
+body{
+    margin: 0 auto;
+    font-size: 15px;
+    background-color: lightgrey;
+}
+
+/*Header*/
+header{
+    background-color: blue;
+}
+
+/*H1*/
+h1{
+    margin: 0 auto;
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+}
+
+nav{
+    display: flex; 
+    flex-wrap: wrap; /* El elemento se situa en la linea siguiente */
+    background-color: cyan;
+}
+
+nav div{
+    flex-grow: 1;
+    display: flex;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: rgb(13, 65, 13);
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 2% 0%;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background-color:tomato ;
+    cursor:pointer;
+}
+
+h2{
+    height: fit-content;
+    top: 25%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+main{
+
+    font-size: 4em;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+main div{
+    padding-top: 10%;
+}
+
+/*Footer*/
+footer{
+    background-color: #efefef;
+    width: 100%;
+    margin: 0 auto;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+}
