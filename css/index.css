@@ -66,13 +66,3 @@ main{
 main div{
     padding-top: 10%;
 }
-
-/*Footer*/
-footer{
-    background-color: #efefef;
-    width: 100%;
-    margin: 0 auto;
-    height: 50px;
-    position: fixed;
-    bottom: 0;
-}
